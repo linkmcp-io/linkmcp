@@ -16,6 +16,10 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 | AI-native (MCP) | Yes | Yes | Yes | No (some add AI features) |
 | Support | Yes | Community/issues | Yes | Yes |
 
+## The safety question
+
+Whatever you pick, the #1 risk is your LinkedIn account. LinkMCP's numbers since March 2026: 90+ account connections, 7,700+ automatic rate-limit interventions, zero user-reported restrictions. Self-hosted setups put this responsibility on you.
+
 ## When the open-source server is the right choice
 
 If you want free, you're comfortable with Docker, and light read-mostly use on your own session risk - it's genuinely good, actively maintained, and transparent. Check its issue tracker for the current state of messaging/connection tools before relying on those.

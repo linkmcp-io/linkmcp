@@ -58,6 +58,11 @@ Use a Personal Access Token with the REST API. See the in-app cookbook for ready
 
 Full parameter documentation: [llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 
+
+## Track record
+
+Since March 2026: **90+ LinkedIn account connections, 7,700+ automatic rate-limit interventions protecting those accounts, and zero user-reported LinkedIn restrictions.** Safety isn't a tagline here - it's enforced server-side on every call.
+
 ## Account safety
 
 - **Cautious mode by default** — rate limits well within LinkedIn thresholds, adjustable per plan
