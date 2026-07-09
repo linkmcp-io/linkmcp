@@ -1,0 +1,15 @@
+startCommand:
+  type: http
+  url: https://app.linkmcp.io/api/mcp
+  configSchema:
+    type: object
+    properties:
+      token:
+        type: string
+        title: Personal Access Token
+        description: >-
+          Your LinkMCP Personal Access Token from Settings > API Tokens.
+          Leave empty to use OAuth authentication instead.
+        x-to:
+          header: x-linkmcp-pat
+    required: []
