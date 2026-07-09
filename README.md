@@ -34,6 +34,14 @@ Add a custom connector / MCP server with URL `https://app.linkmcp.io/api/mcp` â€
 
 Use a Personal Access Token with the REST API. See the in-app cookbook for ready-made workflow recipes.
 
+
+## Guides
+
+- [Connect Claude to LinkedIn (Desktop, Code, claude.ai)](docs/connect-linkedin-to-claude.md)
+- [Can ChatGPT access LinkedIn? Setup guide](docs/connect-linkedin-to-chatgpt.md)
+- [LinkedIn in n8n via the built-in MCP Client Tool](docs/connect-linkedin-to-n8n.md)
+- [LinkedIn MCP servers compared (incl. open-source)](docs/linkmcp-vs-alternatives.md)
+
 ## The 31 tools
 
 | Category | Tools |
