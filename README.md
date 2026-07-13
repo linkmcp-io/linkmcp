@@ -41,6 +41,8 @@ Use a Personal Access Token with the REST API. See the in-app cookbook for ready
 - [Can ChatGPT access LinkedIn? Setup guide](docs/connect-linkedin-to-chatgpt.md)
 - [LinkedIn in n8n via the built-in MCP Client Tool](docs/connect-linkedin-to-n8n.md)
 - [LinkedIn MCP servers compared (incl. open-source)](docs/linkmcp-vs-alternatives.md)
+- [Will my LinkedIn get banned? Automation & AI safety](docs/will-my-linkedin-get-banned.md)
+- [LinkedIn MCP vs Expandi, PhantomBuster & Dripify](docs/linkedin-mcp-vs-expandi-phantombuster.md)
 
 ## The 31 tools
 
