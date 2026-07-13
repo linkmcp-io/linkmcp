@@ -22,3 +22,5 @@
 - Works the same with **Make, Zapier and any REST client** - LinkMCP also exposes a REST API using the same token.
 - Rate limits are enforced server-side (cautious mode by default) so an over-eager workflow can't endanger the connected LinkedIn account.
 - Full tool reference: [app.linkmcp.io/llms-full.txt](https://app.linkmcp.io/llms-full.txt)
+
+**See also:** [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)

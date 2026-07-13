@@ -42,3 +42,5 @@ LinkMCP runs **cautious mode by default**: rate limits well inside LinkedIn's th
 **Do I need my LinkedIn password in Claude?** No. You connect LinkedIn once in the LinkMCP dashboard; Claude only ever sees the MCP tools.
 
 **What does it cost?** 7-day free trial, then paid plans sized by usage - see [pricing](https://app.linkmcp.io/#pricing).
+
+**See also:** [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)

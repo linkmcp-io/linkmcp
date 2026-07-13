@@ -5,12 +5,14 @@
 ## Setup
 
 1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial). The guided setup detects your client.
-2. In ChatGPT: **Settings → Connectors → Add custom connector** (requires a plan with connector/developer-mode support) and paste:
+2. In ChatGPT: enable **Developer Mode** (Settings → Connectors → Advanced), then **Add custom connector** and paste:
    ```
    https://app.linkmcp.io/api/mcp
    ```
 3. Authenticate via OAuth, or use a Personal Access Token from LinkMCP **Settings → API Tokens**.
 4. Test: *"Look up the LinkedIn profile of <any profile URL> and summarize it."*
+
+> **Requirements:** Developer Mode is available on ChatGPT Plus, Pro, Team, Enterprise, and Edu (not the free plan). ChatGPT only connects to *remote* MCP servers — LinkMCP is hosted, so it works directly, whereas a local/self-hosted server would need a bridge to expose it remotely.
 
 ## Example prompts that work
 
@@ -26,3 +28,5 @@ You can - but you lose search, messaging, bulk lookups, engagement data, your ow
 ## Account safety
 
 LinkMCP uses conservative, configurable rate limits (cautious mode by default), dedicated proxies and managed sessions - no scraping of public pages, no browser extension, nothing running on your machine. Details: [app.linkmcp.io](https://app.linkmcp.io)
+
+**See also:** [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)
