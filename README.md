@@ -1,6 +1,6 @@
-# LinkMCP — LinkedIn for your AI
+# LinkMCP - the LinkedIn layer for AI agents
 
-**Hosted MCP server that connects your LinkedIn account to AI assistants.** Qualify leads, mine engagement, manage your inbox, and publish content — all in plain English, from Claude, ChatGPT, Cursor, or any MCP-compatible client.
+**Give any AI agent full access to LinkedIn.** 31 MCP tools to search, read, message, and enrich LinkedIn - build on the API, or connect Claude, ChatGPT, Cursor, n8n, and Make in minutes.
 
 🔗 **Website:** [app.linkmcp.io](https://app.linkmcp.io) · **Full docs for LLMs:** [llms.txt](https://app.linkmcp.io/llms.txt) / [llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 
