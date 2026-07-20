@@ -41,6 +41,7 @@ Use the native MCP node/app in each tool, pointed at the endpoint above with a P
 - [Connect ChatGPT to LinkedIn](docs/connect-linkedin-to-chatgpt.md)
 - [Connect n8n to LinkedIn (via MCP)](docs/connect-linkedin-to-n8n.md)
 - [Connect Make.com to LinkedIn (via MCP)](docs/connect-linkedin-to-make.md)
+- [The LinkedIn outbound funnel, automated (Make & n8n)](docs/linkedin-outbound-funnel-recipe.md)
 - [LinkMCP vs Expandi & PhantomBuster](docs/linkedin-mcp-vs-expandi-phantombuster.md)
 - [LinkMCP vs alternatives](docs/linkmcp-vs-alternatives.md)
 - [Will my LinkedIn get banned?](docs/will-my-linkedin-get-banned.md)
