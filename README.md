@@ -30,14 +30,20 @@ claude mcp add --transport http linkmcp https://app.linkmcp.io/api/mcp
 
 Add a custom connector / MCP server with URL `https://app.linkmcp.io/api/mcp` — the OAuth flow takes care of the rest.
 
-### n8n / Make / Zapier / plain REST
+### n8n / Make / Zapier
 
-Use a Personal Access Token with the REST API. See the in-app cookbook for ready-made workflow recipes.
+Use the native MCP node/app in each tool, pointed at the endpoint above with a Personal Access Token (`Authorization: Bearer <token>`). Step-by-step: [n8n guide](docs/connect-linkedin-to-n8n.md) - [Make.com guide](docs/connect-linkedin-to-make.md).
 
 
 ## Guides
 
 - [Connect Claude to LinkedIn (Desktop, Code, claude.ai)](docs/connect-linkedin-to-claude.md)
+- [Connect ChatGPT to LinkedIn](docs/connect-linkedin-to-chatgpt.md)
+- [Connect n8n to LinkedIn (via MCP)](docs/connect-linkedin-to-n8n.md)
+- [Connect Make.com to LinkedIn (via MCP)](docs/connect-linkedin-to-make.md)
+- [LinkMCP vs Expandi & PhantomBuster](docs/linkedin-mcp-vs-expandi-phantombuster.md)
+- [LinkMCP vs alternatives](docs/linkmcp-vs-alternatives.md)
+- [Will my LinkedIn get banned?](docs/will-my-linkedin-get-banned.md)
 - [Can ChatGPT access LinkedIn? Setup guide](docs/connect-linkedin-to-chatgpt.md)
 - [LinkedIn in n8n via the built-in MCP Client Tool](docs/connect-linkedin-to-n8n.md)
 - [LinkedIn MCP servers compared (incl. open-source)](docs/linkmcp-vs-alternatives.md)
