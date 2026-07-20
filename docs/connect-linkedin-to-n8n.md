@@ -33,4 +33,4 @@ n8n has two native nodes, and LinkMCP works with both:
 - Rate limits are enforced server-side (cautious mode by default) so an over-eager workflow cannot endanger the connected LinkedIn account.
 - Full tool reference: [app.linkmcp.io/llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 
-**See also:** [Connect LinkedIn to Make.com](./connect-linkedin-to-make.md) - [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)
+**See also:** [The LinkedIn outbound funnel, automated](./linkedin-outbound-funnel-recipe.md) - [Connect LinkedIn to Make.com](./connect-linkedin-to-make.md) - [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)
