@@ -15,6 +15,18 @@
 
 > Make's MCP features require a **Core plan or above** (not the Free tier).
 
+## Ready-made templates
+
+Import any of these into Make with one click, paste your LinkMCP token, and run:
+
+- [Get a LinkedIn profile](https://www.make.com/en/templates/19503-get-a-linkedin-profile-with-linkmcp)
+- [Search LinkedIn people](https://www.make.com/en/templates/19504-search-linkedin-people-with-linkmcp)
+- [Send a connection request](https://www.make.com/en/templates/19505-send-a-linkedin-connection-request-with-linkmcp)
+- [Send a LinkedIn message](https://www.make.com/en/templates/19506-send-a-linkedin-message-with-linkmcp)
+- [Find a work email](https://www.make.com/en/templates/19507-find-a-work-email-with-linkmcp)
+
+Chain them into a full outbound funnel with the [LinkedIn outbound funnel recipe](./linkedin-outbound-funnel-recipe.md).
+
 ## Workflow ideas
 
 - **Full-funnel outbound:** Sales Navigator list -> enrich each profile -> personalize a connection note -> send the request -> on accept, personalize and send the first message -> sync to CRM. Detect accepts by polling `linkedin_list_connection_requests` on a schedule (hourly); a native accept webhook is on the roadmap.
