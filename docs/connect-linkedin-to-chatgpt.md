@@ -4,15 +4,15 @@
 
 ## Setup
 
-1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial). The guided setup detects your client.
-2. In ChatGPT: enable **Developer Mode** (Settings → Connectors → Advanced), then **Add custom connector** and paste:
+1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial, no card). The guided setup detects your client. Connecting your own LinkedIn account needs a paid plan.
+2. In ChatGPT, turn on **Developer mode** (Settings > Security and login). Then open the **Plugins** page, click the plus button and create a connection with this URL:
    ```
    https://app.linkmcp.io/api/mcp
    ```
 3. Authenticate via OAuth, or use an access key from **API Keys** in LinkMCP.
 4. Test: *"Look up the LinkedIn profile of <any profile URL> and summarize it."*
 
-> **Requirements:** Developer Mode is available on ChatGPT Plus, Pro, Team, Enterprise, and Edu (not the free plan). ChatGPT only connects to *remote* MCP servers — LinkMCP is hosted, so it works directly, whereas a local/self-hosted server would need a bridge to expose it remotely.
+> **Requirements:** Developer mode is available on ChatGPT Plus, Pro, Business, Enterprise and Edu (not the free plan). ChatGPT only connects to *remote* MCP servers. LinkMCP is hosted, so it works directly; a local or self-hosted server would need a bridge to expose it remotely.
 
 ## Example prompts that work
 
@@ -25,8 +25,8 @@
 
 You can - but you lose search, messaging, bulk lookups, engagement data, your own analytics, and enrichment. An MCP connection makes LinkedIn a first-class tool ChatGPT can use in any conversation or scheduled task.
 
-## Account safety
+## Account risk
 
-LinkMCP uses conservative, configurable rate limits (cautious mode by default), dedicated proxies and managed sessions - no scraping of public pages, no browser extension, nothing running on your machine. Details: [app.linkmcp.io](https://app.linkmcp.io)
+Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk: rate limits on every action (Cautious tier by default), a warm-up limit for connection requests on new or quiet accounts, a hard monthly usage cap on every plan, and managed sessions - no browser extension, nothing running on your machine. LinkMCP is not affiliated with LinkedIn. Details: [app.linkmcp.io/security](https://app.linkmcp.io/security)
 
-**See also:** [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)
+**See also:** [Will my LinkedIn get banned? Automation risk, honestly](./will-my-linkedin-get-banned.md)

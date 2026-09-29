@@ -1,10 +1,10 @@
 # How to Connect Claude to LinkedIn (Claude Desktop, Claude Code & claude.ai)
 
-**Short answer:** Claude can't access LinkedIn out of the box - but it can through an MCP server. LinkMCP is a hosted MCP server that gives Claude 33 LinkedIn tools (profiles, people search, messaging, posts, enrichment) through your own LinkedIn account, with managed sessions and account-safe rate limits. Setup takes about 60 seconds.
+**Short answer:** Claude can't access LinkedIn out of the box - but it can through an MCP server. LinkMCP is a hosted MCP server that gives Claude 33 LinkedIn tools (profiles, people search, messaging, posts, enrichment) through your own LinkedIn account, with managed sessions and rate limits on every action. Setup takes about 60 seconds.
 
 ## Claude Desktop / claude.ai (custom connector)
 
-1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial, no credit card). The guided setup detects your client and walks you through it.
+1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial, no credit card). The guided setup detects your client and walks you through it. Connecting your own LinkedIn account needs a paid plan.
 2. In Claude: **Settings → Connectors → Add custom connector** and paste:
    ```
    https://app.linkmcp.io/api/mcp
@@ -31,9 +31,9 @@ Then authenticate via the OAuth flow on first use, or set a PAT.
 
 Full tool catalog: [33 tools](https://app.linkmcp.io/llms.txt)
 
-## Is this safe for my LinkedIn account?
+## Can this put my LinkedIn account at risk?
 
-LinkMCP runs **cautious mode by default**: rate limits well inside LinkedIn's thresholds, dedicated proxies, managed TLS sessions, no local browser session to maintain, no bulk scraping. Your account behaves like normal LinkedIn browsing.
+Yes, it can. Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk: the **Cautious tier is the default** (daily limits and pacing on every action), new or quiet accounts get a warm-up limit for connection requests, every plan has a hard monthly usage cap, and sessions are managed server-side over TLS, with no local browser session to maintain. LinkMCP is not affiliated with LinkedIn.
 
 ## FAQ
 
@@ -43,4 +43,4 @@ LinkMCP runs **cautious mode by default**: rate limits well inside LinkedIn's th
 
 **What does it cost?** 7-day free trial, then paid plans sized by usage - see [pricing](https://app.linkmcp.io/#pricing).
 
-**See also:** [Will my LinkedIn get banned? Automation & AI safety](./will-my-linkedin-get-banned.md)
+**See also:** [Will my LinkedIn get banned? Automation risk, honestly](./will-my-linkedin-get-banned.md)
