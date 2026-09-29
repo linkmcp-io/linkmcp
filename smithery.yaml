@@ -8,7 +8,7 @@ startCommand:
         type: string
         title: Personal Access Token
         description: >-
-          Your LinkMCP Personal Access Token from Settings > API Tokens.
+          Your LinkMCP access key (in the app under API Keys).
           Leave empty to use OAuth authentication instead.
         x-to:
           header: x-linkmcp-pat

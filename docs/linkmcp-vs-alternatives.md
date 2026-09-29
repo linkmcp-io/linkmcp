@@ -10,7 +10,7 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 | Price | Free trial, paid plans from ~$19/mo | Free (Apache 2.0) | from EUR 69/account/mo | ~$79-99/account/mo |
 | Setup | ~60s, no install | Docker/local install + your LinkedIn session cookie | minutes | minutes |
 | Session management | Managed (dedicated proxies, TLS) | Your own logged-in browser - you maintain it | Managed cloud browser | Managed |
-| Tools | 31 (profiles, search incl. Sales Navigator, messaging, posts, engagement, enrichment incl. email/phone) | ~17-18 (profiles, search, jobs, messaging) | Workflow API + MCP | Sequences, inbox |
+| Tools | 33 (profiles, search incl. Sales Navigator, messaging, posts, engagement, enrichment incl. email/phone) | ~17-18 (profiles, search, jobs, messaging) | Workflow API + MCP | Sequences, inbox |
 | Rate limiting | Server-side, cautious mode default | You control (and can burn your account) | Managed | Managed |
 | Email/phone enrichment | Built in | No | No | Via integrations |
 | AI-native (MCP) | Yes | Yes | Yes | No (some add AI features) |
