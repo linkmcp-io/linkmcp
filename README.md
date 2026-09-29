@@ -62,11 +62,13 @@ Use the MCP client node or module of the platform, with the endpoint above and a
 
 - **Free trial:** 7 days, no card. Profile and company lookups, post data and email or phone finding work in the trial. Connecting your own LinkedIn account (inbox, search as you, invites, posting) needs a paid plan.
 - **Starter:** $19 per month. **Pro:** $49 per month (5x the Starter usage). **Max:** $199 per month (50x the Starter usage).
-- Every plan includes every tool. Each plan has a monthly usage allowance and a hard cap, so a looping agent cannot run up a bill. Top-up packs cost $10.
+- Every paid plan includes every tool. Each plan has a monthly usage allowance and a hard cap, so a looping agent cannot run up a bill. Top-up packs cost $10.
 
 Current prices: [app.linkmcp.io/#pricing](https://app.linkmcp.io/#pricing)
 
-## Account safety
+## Account risk and limits
+
+Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk:
 
 - Server-side rate limits on every call, and a warm-up ramp for connection requests on new or quiet accounts.
 - Your LinkedIn password is not stored. The LinkedIn session runs on dedicated session infrastructure, not in your browser.

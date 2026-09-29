@@ -40,11 +40,11 @@ Add a manual-review gate before step 6 while you calibrate tone (Make: a router 
 
 ## Detecting accepts (step 5)
 
-LinkMCP doesn't yet push a real-time "connection accepted" webhook (it's on the roadmap). Until then, poll: on a schedule, call `linkedin_list_connection_requests` for your sent invites and diff against the previous run - anything that dropped off the pending list was accepted, declined, or withdrawn. Confirm the accepts with `linkedin_get_connections`. **Poll hourly, not faster:** the two list calls are metered per LinkedIn account (100/day, shared with your other tool usage), and true "the-instant-they-accept" timing isn't something LinkedIn exposes to anyone - hourly is fresh enough for a personalized follow-up and keeps you well inside the budget.
+LinkMCP doesn't yet push a real-time "connection accepted" webhook (it's on the roadmap). Until then, poll: on a schedule, call `linkedin_list_connection_requests` for your sent invites and diff against the previous run - anything that dropped off the pending list was accepted, declined, or withdrawn. Confirm the accepts with `linkedin_get_connections`. **Poll hourly, not faster:** each of the two list calls has a daily limit per LinkedIn account (100 at the base limit, 25 in the default Cautious tier), shared with your other tool usage, and true "the-instant-they-accept" timing isn't something LinkedIn exposes to anyone - hourly is fresh enough for a personalized follow-up and stays inside the Cautious limit.
 
-## Safety
+## Account risk
 
-Every call runs through LinkMCP's server-side rate limiting (cautious mode by default), so an over-eager schedule can't push the connected account past LinkedIn's thresholds. More: [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)
+Every call runs through LinkMCP's server-side rate limiting (Cautious tier by default), and every plan has a hard monthly usage cap, so an over-eager schedule is slowed down or stopped. Automated outreach can still put the connected account at risk: keep volumes low and keep the manual-review gate above. More: [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)
 
 ## Get started
 

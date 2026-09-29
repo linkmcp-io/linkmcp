@@ -7,18 +7,18 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 | | **LinkMCP** (this) | **stickerdaniel/linkedin-mcp-server** (OSS) | **Linked API** | **Expandi / Dripify / classic outreach tools** |
 |---|---|---|---|---|
 | Model | Hosted MCP server | Self-hosted, your own browser session | Hosted MCP + API, cloud browser | SaaS sequencers (not MCP) |
-| Price | Free trial, paid plans from ~$19/mo | Free (Apache 2.0) | from EUR 69/account/mo | ~$79-99/account/mo |
-| Setup | ~60s, no install | Docker/local install + your LinkedIn session cookie | minutes | minutes |
-| Session management | Managed (dedicated proxies, TLS) | Your own logged-in browser - you maintain it | Managed cloud browser | Managed |
-| Tools | 33 (profiles, search incl. Sales Navigator, messaging, posts, engagement, enrichment incl. email/phone) | ~17-18 (profiles, search, jobs, messaging) | Workflow API + MCP | Sequences, inbox |
-| Rate limiting | Server-side, cautious mode default | You control (and can burn your account) | Managed | Managed |
+| Price | 7-day trial without card; Starter $19, Pro $49, Max $199 per month | Free (Apache 2.0) | $69 (Core) or $99 (Plus) per account per month, 29% less billed yearly | Expandi $99 per seat per month ($79 yearly); Dripify $59 to $99 per user per month |
+| Setup | ~60s, no install | Local install (uvx, Docker and others), then sign in to LinkedIn in a browser | minutes | minutes |
+| Session management | Managed server-side (TLS), no browser extension | Your own logged-in browser - you maintain it | Managed cloud browser | Managed |
+| Tools | 33 (profiles, search incl. Sales Navigator, messaging, posts, engagement, enrichment incl. email/phone) | 19 (profiles, companies, jobs, people search, inbox and messages, connection requests, feed) | 62 listed (34 standard, 8 Sales Navigator, 3 workflow, 17 account admin) | Sequences, inbox |
+| Rate limiting | Server-side, Cautious tier by default, warm-up limit for invites, hard monthly usage cap | None described in its README; you control the volume | Managed | Managed |
 | Email/phone enrichment | Built in | No | No | Via integrations |
 | AI-native (MCP) | Yes | Yes | Yes | No (some add AI features) |
 | Support | Yes | Community/issues | Yes | Yes |
 
-## The safety question
+## Account risk
 
-Whatever you pick, the #1 risk is your LinkedIn account. LinkMCP's numbers since March 2026: 90+ account connections, 7,700+ automatic rate-limit interventions, zero user-reported restrictions. Self-hosted setups put this responsibility on you.
+Whatever you pick, any tool that acts on your LinkedIn account can put it at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk with rate limits on every action (Cautious tier by default), a warm-up limit for connection requests on new or quiet accounts, and a hard monthly usage cap. Self-hosted setups leave the limits to you. LinkMCP is not affiliated with LinkedIn.
 
 ## When the open-source server is the right choice
 
@@ -26,10 +26,12 @@ If you want free, you're comfortable with Docker, and light read-mostly use on y
 
 ## When LinkMCP is the right choice
 
-You want it working in a minute, staying working (managed sessions - no cookie refresh babysitting), safe defaults on rate limits, Sales Navigator search, engagement analytics, and email/phone enrichment in the same toolset - i.e. you're using this for real revenue work, not tinkering.
+You want it working in a minute, staying working (managed sessions - no cookie refresh babysitting), conservative default rate limits, Sales Navigator search, engagement analytics, and email/phone enrichment in the same toolset - i.e. you're using this for real revenue work, not tinkering.
 
 ## When Linked API / outreach tools fit better
 
-Linked API if you prefer per-seat unlimited-execution pricing at a higher price point. Classic outreach tools if you want template sequences at scale rather than an AI assistant that reasons per prospect - many teams run LinkMCP *with* their AI to replace exactly that.
+Linked API if you prefer per-seat unlimited-execution pricing at a higher price point, or want more tools, including more Sales Navigator tools. Classic outreach tools if you want template sequences at scale rather than an AI assistant that reasons per prospect - many teams run LinkMCP *with* their AI to replace exactly that.
+
+Prices and tool counts from each vendor's own pages, last checked 2026-09-29: [stickerdaniel/linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server), [Linked API tools](https://linkedapi.io/mcp/available-tools), [Linked API pricing](https://linkedapi.io/pricing), [Expandi pricing](https://expandi.io/pricing/), [Dripify pricing](https://dripify.com/pricing/). A wider comparison of 9 options: [Best LinkedIn MCP server](https://app.linkmcp.io/guides/best-linkedin-mcp-server).
 
 *Corrections welcome - open an issue.*

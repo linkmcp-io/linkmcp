@@ -36,7 +36,7 @@ Chain them into a full outbound funnel with the [LinkedIn outbound funnel recipe
 ## Notes
 
 - The same MCP endpoint + token works in **n8n, Zapier, Claude, ChatGPT, Cursor, or any MCP client**.
-- Rate limits are enforced server-side so an over-eager scenario cannot endanger the connected LinkedIn account.
+- Rate limits are enforced server-side, so an over-eager scenario is slowed down or stopped. Any automated use of LinkedIn can still put the connected account at risk.
 - Full tool reference: [app.linkmcp.io/llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 
 **See also:** [The LinkedIn outbound funnel, automated](./linkedin-outbound-funnel-recipe.md) - [Connect LinkedIn to n8n](./connect-linkedin-to-n8n.md) - [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)
