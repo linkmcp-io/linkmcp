@@ -2,6 +2,8 @@
 
 **Short answer: Expandi, PhantomBuster, and Dripify are built for bulk outreach and scraping campaigns; a LinkedIn MCP server like [LinkMCP](https://linkmcp.io) is built to give your AI assistant conversational access to LinkedIn.** They overlap on some capabilities (reading profiles, searching, messaging), but they're aimed at different jobs. If you want mass automated campaigns, the classic tools do that. If you want Claude or ChatGPT to research, enrich, and help you work LinkedIn intelligently - at human scale, with limits on every action - that's what an MCP server is for. This page is an honest comparison so you pick the right one.
 
+**[Start your free 7-day trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=vs-expandi)** - no card. Setup takes about a minute.
+
 ## What each is actually for
 
 **Expandi / Dripify - outreach campaign automation.** Sequences of connection requests and follow-up messages at scale, drip campaigns, A/B testing. Their job is volume outreach.
@@ -42,4 +44,4 @@ Yes - and with Cursor, n8n, and Make. That's the AI-native advantage the campaig
 
 ---
 
-*LinkMCP is a hosted LinkedIn MCP server for AI-native, human-scale LinkedIn work - 33 tools across Claude, ChatGPT, Cursor, n8n, and Make, with managed sessions. [Start a free trial](https://linkmcp.io).*
+*LinkMCP is a hosted LinkedIn MCP server for AI-native, human-scale LinkedIn work - 34 tools across Claude, ChatGPT, Cursor, n8n, and Make, with managed sessions. [Start a free trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=vs-expandi).*

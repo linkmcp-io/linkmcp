@@ -1,12 +1,14 @@
 # How to Use LinkedIn in n8n with AI (via MCP) - No Community Node Needed
 
-**Short answer:** n8n ships built-in MCP nodes that connect to any MCP server. Point them at LinkMCP and your n8n workflows get 33 LinkedIn tools - profiles, people search, connections, messaging, posts, enrichment - with no community package to install and nothing to self-host.
+**Short answer:** n8n ships built-in MCP nodes that connect to any MCP server. Point them at LinkMCP and your n8n workflows get 34 LinkedIn tools - profiles, people search, connections, messaging, posts, enrichment - with no community package to install and nothing to self-host.
+
+**[Start your free 7-day trial](https://app.linkmcp.io/login?from=n8n&utm_source=github&utm_medium=guide&utm_content=n8n)** - no card. Setup takes about a minute.
 
 ## Two ways to use it
 
 n8n has two native nodes, and LinkMCP works with both:
 
-- **MCP Client Tool** (attach to an AI Agent): the agent auto-discovers all 33 tools and picks the right one per task. Best for "research this lead and draft a message" style automations.
+- **MCP Client Tool** (attach to an AI Agent): the agent auto-discovers all 34 tools and picks the right one per task. Best for "research this lead and draft a message" style automations.
 - **MCP Client** (standalone step, no LLM required): call one specific LinkMCP tool as a deterministic workflow step. Best for classic operator flows - "enrich this profile", "send this connection request" - where you don't want an agent deciding anything.
 
 ## Setup
@@ -16,7 +18,7 @@ n8n has two native nodes, and LinkMCP works with both:
    - **Endpoint / Server URL:** `https://app.linkmcp.io/api/mcp`
    - **Authentication:** Bearer token -> paste your LinkMCP Personal Access Token
    - **Transport:** Streamable HTTP
-3. On the Tool node you can include all 33 tools or curate a subset (e.g. only search + connect + message for an outreach agent).
+3. On the Tool node you can include all 34 tools or curate a subset (e.g. only search + connect + message for an outreach agent).
 
 > **If the connection fails:** make sure n8n is using **Streamable HTTP** transport, not the legacy SSE transport - LinkMCP is Streamable-HTTP only. In some n8n versions the transport can fall back to SSE silently; set it explicitly to HTTP Streamable.
 

@@ -2,6 +2,8 @@
 
 An honest comparison for anyone deciding how to give their AI assistant LinkedIn access. TL;DR: they solve different problems - pick by how much reliability and volume you need.
 
+**[Start your free 7-day trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=vs-alternatives)** - no card. Setup takes about a minute.
+
 ## The options
 
 | | **LinkMCP** (this) | **stickerdaniel/linkedin-mcp-server** (OSS) | **Linked API** | **Expandi / Dripify / classic outreach tools** |
@@ -10,7 +12,7 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 | Price | 7-day trial without card; Starter $19, Pro $49, Max $199 per month | Free (Apache 2.0) | $69 (Core) or $99 (Plus) per account per month, 29% less billed yearly | Expandi $99 per seat per month ($79 yearly); Dripify $59 to $99 per user per month |
 | Setup | ~60s, no install | Local install (uvx, Docker and others), then sign in to LinkedIn in a browser | minutes | minutes |
 | Session management | Managed server-side (TLS), no browser extension | Your own logged-in browser - you maintain it | Managed cloud browser | Managed |
-| Tools | 33 (profiles, search incl. Sales Navigator, messaging, posts, engagement, enrichment incl. email/phone) | 19 (profiles, companies, jobs, people search, inbox and messages, connection requests, feed) | 62 listed (34 standard, 8 Sales Navigator, 3 workflow, 17 account admin) | Sequences, inbox |
+| Tools | 34 (profiles, search incl. Sales Navigator, messaging, posts, company pages, engagement, enrichment incl. email/phone) | 19 (profiles, companies, jobs, people search, inbox and messages, connection requests, feed) | 62 listed (34 standard, 8 Sales Navigator, 3 workflow, 17 account admin) | Sequences, inbox |
 | Rate limiting | Server-side, Cautious tier by default, warm-up limit for invites, hard monthly usage cap | None described in its README; you control the volume | Managed | Managed |
 | Email/phone enrichment | Built in | No | No | Via integrations |
 | AI-native (MCP) | Yes | Yes | Yes | No (some add AI features) |
