@@ -2,11 +2,21 @@
   "name": "linkmcp",
   "version": "1.1.0",
   "description": "Your own LinkedIn account in Codex: profile and company lookups, people and Sales Navigator search, inbox, posts, company pages, connection requests and work email finding, through the hosted LinkMCP server.",
-  "author": { "name": "LinkMCP", "url": "https://app.linkmcp.io" },
+  "author": {
+    "name": "LinkMCP",
+    "url": "https://app.linkmcp.io"
+  },
   "homepage": "https://app.linkmcp.io",
   "repository": "https://github.com/linkmcp-io/linkmcp",
   "license": "MIT",
-  "keywords": ["linkedin", "mcp", "sales", "prospecting", "sales-navigator", "recruiting"],
+  "keywords": [
+    "linkedin",
+    "mcp",
+    "sales",
+    "prospecting",
+    "sales-navigator",
+    "recruiting"
+  ],
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "LinkMCP",
@@ -19,6 +29,7 @@
       "Look up the company linkedin.com/company/stripe on LinkedIn and give me a short brief: what they do, how big they are and what they posted recently."
     ],
     "logo": "./assets/logo-512.png",
+    "composerIcon": "./assets/logo-512.png",
     "screenshots": [],
     "websiteURL": "https://app.linkmcp.io",
     "privacyPolicyURL": "https://app.linkmcp.io/legal",
