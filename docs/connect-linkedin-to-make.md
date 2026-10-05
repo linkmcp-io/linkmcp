@@ -1,6 +1,8 @@
 # How to Use LinkedIn in Make.com with AI (via MCP)
 
-**Short answer:** Make.com ships a native **MCP Client** app. Point it at LinkMCP and every Make scenario gets 33 LinkedIn tools - profiles, people search, connections, messaging, posts, enrichment - with no custom app to install.
+**Short answer:** Make.com ships a native **MCP Client** app. Point it at LinkMCP and every Make scenario gets 34 LinkedIn tools - profiles, people search, connections, messaging, posts, enrichment - with no custom app to install.
+
+**[Start your free 7-day trial](https://app.linkmcp.io/login?from=make&utm_source=github&utm_medium=guide&utm_content=make)** - no card. Setup takes about a minute.
 
 ## Setup (native MCP Client app)
 
@@ -11,7 +13,7 @@
 3. Create the connection -> **+ new MCP server**:
    - **Server URL:** `https://app.linkmcp.io/api/mcp`
    - **API key / token:** your LinkMCP Personal Access Token
-4. All 33 tools are now available in the scenario.
+4. All 34 tools are now available in the scenario.
 
 > Make's MCP features require a **Core plan or above** (not the Free tier).
 

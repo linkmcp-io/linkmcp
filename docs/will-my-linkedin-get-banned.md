@@ -2,6 +2,8 @@
 
 **Short answer: it can happen with any tool that automates your account, and no tool can promise that it will not.** What you do, and *how much*, matters most. LinkedIn restricts and bans accounts for behavior that looks automated - high volumes, robotic timing, and page-scraping. It does not publish exact limits.
 
+**[Start your free 7-day trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=will-my-linkedin-get-banned)** - no card. Setup takes about a minute.
+
 This guide explains the common triggers, how the tool types differ, and what you can do to lower the risk.
 
 ## What can get a LinkedIn account restricted
@@ -53,4 +55,4 @@ Keep volumes low, warm up new or quiet accounts, and use a tool with limits on e
 
 ---
 
-*LinkMCP is a hosted LinkedIn MCP server built around managed, rate-limited sessions - no browser extension, no scraping on your machine. Give Claude, ChatGPT, or Cursor access to LinkedIn, with limits on every action. [Start a free trial](https://linkmcp.io).*
+*LinkMCP is a hosted LinkedIn MCP server built around managed, rate-limited sessions - no browser extension, no scraping on your machine. Give Claude, ChatGPT, or Cursor access to LinkedIn, with limits on every action. [Start a free trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=will-my-linkedin-get-banned).*

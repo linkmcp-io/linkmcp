@@ -1,0 +1,10 @@
+{
+  "name": "linkmcp",
+  "version": "1.1.0",
+  "description": "Hosted LinkedIn MCP server: connects your own LinkedIn account to Claude Code (OAuth sign-in). Profiles, companies, people and Sales Navigator search, inbox, posts, company pages, connection requests and work email finding.",
+  "author": { "name": "LinkMCP", "email": "info@linkmcp.io", "url": "https://app.linkmcp.io" },
+  "homepage": "https://app.linkmcp.io",
+  "repository": "https://github.com/linkmcp-io/linkmcp",
+  "license": "MIT",
+  "keywords": ["linkedin", "mcp", "sales", "prospecting", "sales-navigator"]
+}
