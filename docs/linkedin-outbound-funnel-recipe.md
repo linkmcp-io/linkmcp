@@ -1,6 +1,6 @@
 # The LinkedIn Outbound Funnel, Fully Automated (Make & n8n)
 
-Run a Sales Navigator search, connect, and follow up with a personalized message the moment each prospect accepts - the whole outbound motion as one automation, driven by AI. No dedicated node to install: LinkMCP's 34 LinkedIn tools plug straight into the **native MCP node** in both [n8n](./connect-linkedin-to-n8n.md) and [Make.com](./connect-linkedin-to-make.md).
+Run a Sales Navigator search, connect, and follow up with a personalized message the moment each prospect accepts - the whole outbound motion as one automation, driven by AI. No dedicated node to install: LinkMCP's 35 LinkedIn tools plug straight into the **native MCP node** in both [n8n](./connect-linkedin-to-n8n.md) and [Make.com](./connect-linkedin-to-make.md).
 
 **[Start your free 7-day trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=outbound-recipe)** - no card. Setup takes about a minute.
 

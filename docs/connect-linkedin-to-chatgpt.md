@@ -1,6 +1,6 @@
 # Can ChatGPT Access LinkedIn? Yes - Here's How (2026)
 
-**Short answer:** ChatGPT cannot browse LinkedIn by itself (LinkedIn blocks it), but it can use LinkedIn through an MCP connector. LinkMCP gives ChatGPT 34 LinkedIn tools through your own LinkedIn account: profile and company lookups, people search, messages, posts and comments (also as your company page), invitations, and email and phone finding.
+**Short answer:** ChatGPT cannot browse LinkedIn by itself (LinkedIn blocks it), but it can use LinkedIn through an MCP connector. LinkMCP gives ChatGPT 35 LinkedIn tools through your own LinkedIn account: profile and company lookups, people search, messages, posts and comments (also as your company page), invitations, and email and phone finding.
 
 **[Start your free 7-day trial](https://app.linkmcp.io/login?from=chatgpt&utm_source=github&utm_medium=guide&utm_content=chatgpt)** - no card. Setup takes about a minute.
 
