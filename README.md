@@ -19,7 +19,7 @@ No card. Sign in with an email code or Google. Setup takes about a minute.
 The endpoint is the same for every client:
 
 ```
-https://app.linkmcp.io/api/mcp
+https://app.linkmcp.io/api/mcp?ref=github
 ```
 
 Transport: Streamable HTTP. Sign-in: OAuth in the browser. If your client cannot do OAuth, send an access key as `Authorization: Bearer <key>`. You create the key in the web app under **API Keys**.
@@ -28,10 +28,10 @@ Transport: Streamable HTTP. Sign-in: OAuth in the browser. If your client cannot
 
 ### Claude (web and desktop)
 
-[**Add to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=LinkMCP&connectorUrl=https%3A%2F%2Fapp.linkmcp.io%2Fapi%2Fmcp) opens the "Add custom connector" dialog with the name and URL filled in. Or do it by hand:
+[**Add to Claude**](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=LinkMCP&connectorUrl=https%3A%2F%2Fapp.linkmcp.io%2Fapi%2Fmcp%3Fref%3Dgithub) opens the "Add custom connector" dialog with the name and URL filled in. Or do it by hand:
 
 1. In Claude, open **Customize > Connectors**, click **+** and choose **Add custom connector**.
-2. Name it `LinkMCP` and paste `https://app.linkmcp.io/api/mcp`.
+2. Name it `LinkMCP` and paste `https://app.linkmcp.io/api/mcp?ref=github`.
 3. Click **Add**, then **Connect**, and approve the sign-in window.
 
 On Team and Enterprise plans, an Owner adds the connector in **Organization settings > Connectors**. Then each member clicks **Connect**. The Free plan allows one custom connector.
@@ -39,7 +39,7 @@ On Team and Enterprise plans, an Owner adds the connector in **Organization sett
 ### Claude Code
 
 ```bash
-claude mcp add --transport http linkmcp https://app.linkmcp.io/api/mcp
+claude mcp add --transport http linkmcp "https://app.linkmcp.io/api/mcp?ref=github"
 ```
 
 Then run `/mcp` in Claude Code, select `linkmcp` and choose **Authenticate**.
@@ -49,7 +49,7 @@ Then run `/mcp` in Claude Code, select `linkmcp` and choose **Authenticate**.
 Developer mode needs ChatGPT Plus, Pro, Business, Enterprise or Edu (not Free), on the web.
 
 1. Open **Settings > Security and login** and turn on **Developer mode**.
-2. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+**, name it `LinkMCP` and paste `https://app.linkmcp.io/api/mcp`.
+2. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+**, name it `LinkMCP` and paste `https://app.linkmcp.io/api/mcp?ref=github`.
 3. Create the connection and approve the sign-in window.
 4. In a new chat, click **+ > Developer mode** and turn on LinkMCP.
 
@@ -60,7 +60,7 @@ A workspace admin can turn Developer mode off for a Business or Enterprise works
 Codex CLI:
 
 ```bash
-codex mcp add linkmcp --url https://app.linkmcp.io/api/mcp
+codex mcp add linkmcp --url "https://app.linkmcp.io/api/mcp?ref=github"
 ```
 
 Codex opens the sign-in window. If it does not, run `codex mcp login linkmcp`.
@@ -69,14 +69,14 @@ Codex app and IDE extension: open the settings menu, select **MCP servers > Add 
 
 ### Cursor
 
-[![Add LinkMCP to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=linkmcp&config=eyJ1cmwiOiJodHRwczovL2FwcC5saW5rbWNwLmlvL2FwaS9tY3AifQ==)
+[![Add LinkMCP to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=linkmcp&config=eyJ1cmwiOiJodHRwczovL2FwcC5saW5rbWNwLmlvL2FwaS9tY3A/cmVmPWdpdGh1YiJ9)
 
 Or add this to `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json` (one project):
 
 ```json
 {
   "mcpServers": {
-    "linkmcp": { "url": "https://app.linkmcp.io/api/mcp" }
+    "linkmcp": { "url": "https://app.linkmcp.io/api/mcp?ref=github" }
   }
 }
 ```
@@ -94,7 +94,7 @@ gemini extensions install https://github.com/linkmcp-io/linkmcp
 Or add only the server:
 
 ```bash
-gemini mcp add --transport http linkmcp https://app.linkmcp.io/api/mcp
+gemini mcp add --transport http linkmcp "https://app.linkmcp.io/api/mcp?ref=github"
 ```
 
 Then start Gemini CLI and run `/mcp auth linkmcp` to sign in.
@@ -104,7 +104,7 @@ Then start Gemini CLI and run `/mcp auth linkmcp` to sign in.
 VS Code:
 
 ```bash
-code --add-mcp '{"name":"linkmcp","type":"http","url":"https://app.linkmcp.io/api/mcp"}'
+code --add-mcp '{"name":"linkmcp","type":"http","url":"https://app.linkmcp.io/api/mcp?ref=github"}'
 ```
 
 - **Windsurf and other MCP clients:** add a remote MCP server with the endpoint above.

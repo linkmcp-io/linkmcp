@@ -1,6 +1,6 @@
 startCommand:
   type: http
-  url: https://app.linkmcp.io/api/mcp
+  url: https://app.linkmcp.io/api/mcp?ref=smithery
   configSchema:
     type: object
     properties:

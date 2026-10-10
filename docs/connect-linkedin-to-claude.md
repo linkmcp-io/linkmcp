@@ -9,7 +9,7 @@
 1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) (free 7-day trial, no credit card). The guided setup detects your client and walks you through it. Connecting your own LinkedIn account needs a paid plan.
 2. In Claude: **Settings → Connectors → Add custom connector** and paste:
    ```
-   https://app.linkmcp.io/api/mcp
+   https://app.linkmcp.io/api/mcp?ref=github-claude
    ```
 3. Complete the OAuth prompt (or paste an access key from **API Keys** in LinkMCP).
 4. Ask Claude: *"Who am I on LinkedIn?"* - if it answers, you're connected.
@@ -17,7 +17,7 @@
 ## Claude Code (CLI)
 
 ```bash
-claude mcp add --transport http linkmcp https://app.linkmcp.io/api/mcp
+claude mcp add --transport http linkmcp "https://app.linkmcp.io/api/mcp?ref=github-claude"
 ```
 
 Then authenticate via the OAuth flow on first use, or set a PAT.

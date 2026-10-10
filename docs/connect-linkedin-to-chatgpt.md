@@ -12,7 +12,7 @@ Developer mode needs ChatGPT Plus, Pro, Business, Enterprise or Edu (not Free), 
 2. In ChatGPT, open **Settings > Security and login** and turn on **Developer mode**.
 3. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+**, name it `LinkMCP` and paste this address:
    ```
-   https://app.linkmcp.io/api/mcp
+   https://app.linkmcp.io/api/mcp?ref=github-chatgpt
    ```
 4. Create the connection and approve the sign-in window.
 5. In a new chat, click **+ > Developer mode** and turn on LinkMCP.
@@ -37,7 +37,7 @@ Profile and company lookups, the posts and comments of people and companies, and
 Run this in your terminal. Codex opens the sign-in window.
 
 ```bash
-codex mcp add linkmcp --url https://app.linkmcp.io/api/mcp
+codex mcp add linkmcp --url "https://app.linkmcp.io/api/mcp?ref=github-chatgpt"
 ```
 
 Steps for Claude, Cursor and Gemini CLI are in the [README](../README.md#quick-start).
