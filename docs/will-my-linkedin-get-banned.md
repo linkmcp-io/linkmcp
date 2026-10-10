@@ -1,6 +1,6 @@
 # Will My LinkedIn Get Banned? A Practical Guide to LinkedIn Automation Risk
 
-**Short answer: it can happen with any tool that automates your account, and no tool can promise that it will not.** What you do, and *how much*, matters most. LinkedIn restricts and bans accounts for behavior that looks automated - high volumes, robotic timing, and page-scraping. It does not publish exact limits.
+**Short answer: careful limits keep the risk low, but no tool that automates your account can rule out a restriction completely.** What you do, and *how much*, matters most. LinkedIn restricts and bans accounts for behavior that looks automated - high volumes, robotic timing, and page-scraping. It does not publish exact limits.
 
 **[Start your free 7-day trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=will-my-linkedin-get-banned)** - no card. Setup takes about a minute.
 

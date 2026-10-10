@@ -20,7 +20,7 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 
 ## Account risk
 
-Whatever you pick, any tool that acts on your LinkedIn account can put it at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk with rate limits on every action (Cautious tier by default), a warm-up limit for connection requests on new or quiet accounts, and a hard monthly usage cap. Self-hosted setups leave the limits to you. LinkMCP is not affiliated with LinkedIn.
+LinkMCP puts rate limits on every action (Cautious tier by default), a warm-up limit for connection requests on new or quiet accounts, and a hard monthly usage cap. Self-hosted setups leave the limits to you. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low. LinkMCP is not affiliated with LinkedIn.
 
 ## When the open-source server is the right choice
 

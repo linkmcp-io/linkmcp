@@ -35,7 +35,7 @@ Full tool catalog: [34 tools](https://app.linkmcp.io/llms.txt)
 
 ## Can this put my LinkedIn account at risk?
 
-Yes, it can. Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk: the **Cautious tier is the default** (daily limits and pacing on every action), new or quiet accounts get a warm-up limit for connection requests, every plan has a hard monthly usage cap, and sessions are managed server-side over TLS, with no local browser session to maintain. LinkMCP is not affiliated with LinkedIn.
+The **Cautious tier is the default** (daily limits and pacing on every action), new or quiet accounts start with a warm-up limit for connection requests, every plan has a hard monthly usage cap, and sessions are managed server-side over TLS, with no local browser session to maintain. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low. LinkMCP is not affiliated with LinkedIn.
 
 ## FAQ
 

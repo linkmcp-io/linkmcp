@@ -22,7 +22,7 @@
 
 ## Account risk
 
-This is the honest core of the comparison. Every one of these tools acts on your LinkedIn account, so every one of them can put it at risk. The risk grows with volume: campaigns and mass exports push an account hardest. LinkMCP is built for single requests from your AI assistant. It puts daily limits and pacing on every action, a warm-up limit on connection requests, and a hard monthly usage cap on every plan. That lowers the risk; it does not remove it. Match the tool to the job and keep volumes low. More in our [guide on account risk](./will-my-linkedin-get-banned.md).
+LinkMCP is built for single requests from your AI assistant. It puts daily limits and pacing on every action, a warm-up limit on connection requests, and a hard monthly usage cap on every plan. The risk grows with volume: campaigns and mass exports push an account hardest. Match the tool to the job and keep volumes low. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low. More in our [guide on account risk](./will-my-linkedin-get-banned.md).
 
 ## Can they work together?
 
@@ -37,7 +37,7 @@ Not for bulk cold-outreach campaigns - that's a different job. It's the better c
 For conversational/agentic access and enrichment, yes. For deliberate large-scale scraping/exports, PhantomBuster is a different tool for a different job.
 
 **Can these tools put my account at risk?**
-Yes, all of them can. Any tool that acts on your LinkedIn account is automated use. The risk grows with volume, so bulk campaigns and scraping push an account hardest. LinkMCP puts daily limits on every action, but it cannot remove the risk.
+LinkMCP puts daily limits on every action. The risk grows with volume, so bulk campaigns and scraping push an account hardest. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low.
 
 **Does an MCP server work with ChatGPT and Claude?**
 Yes - and with Cursor, n8n, and Make. That's the AI-native advantage the campaign tools don't have.
