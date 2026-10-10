@@ -44,4 +44,4 @@ Yes - and with Cursor, n8n, and Make. That's the AI-native advantage the campaig
 
 ---
 
-*LinkMCP is a hosted LinkedIn MCP server for AI-native, human-scale LinkedIn work - 34 tools across Claude, ChatGPT, Cursor, n8n, and Make, with managed sessions. [Start a free trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=vs-expandi).*
+*LinkMCP is a hosted LinkedIn MCP server for AI-native, human-scale LinkedIn work - 35 tools across Claude, ChatGPT, Cursor, n8n, and Make, with managed sessions. [Start a free trial](https://app.linkmcp.io/login?utm_source=github&utm_medium=guide&utm_content=vs-expandi).*

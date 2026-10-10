@@ -167,7 +167,7 @@ List the LinkedIn company pages that I administer. Draft a post for our page abo
 
 ---
 
-## The 34 tools
+## The 35 tools
 
 Tools marked **trial** work in the free trial. All tools work on every paid plan.
 

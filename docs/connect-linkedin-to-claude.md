@@ -1,6 +1,6 @@
 # How to Connect Claude to LinkedIn (Claude Desktop, Claude Code & claude.ai)
 
-**Short answer:** Claude can't access LinkedIn out of the box - but it can through an MCP server. LinkMCP is a hosted MCP server that gives Claude 34 LinkedIn tools (profiles, people search, messaging, posts, enrichment) through your own LinkedIn account, with managed sessions and rate limits on every action. Setup takes about 60 seconds.
+**Short answer:** Claude can't access LinkedIn out of the box - but it can through an MCP server. LinkMCP is a hosted MCP server that gives Claude 35 LinkedIn tools (profiles, people search, messaging, posts, enrichment) through your own LinkedIn account, with managed sessions and rate limits on every action. Setup takes about 60 seconds.
 
 **[Start your free 7-day trial](https://app.linkmcp.io/login?from=claude&utm_source=github&utm_medium=guide&utm_content=claude)** - no card. Setup takes about a minute.
 
@@ -31,7 +31,7 @@ Then authenticate via the OAuth flow on first use, or set a PAT.
 - Content: *"Who reacted to my latest post? Which ones match my ICP?"*
 - Enrichment: *"Find the work email for <name> at <company>."*
 
-Full tool catalog: [34 tools](https://app.linkmcp.io/llms.txt)
+Full tool catalog: [35 tools](https://app.linkmcp.io/llms.txt)
 
 ## Can this put my LinkedIn account at risk?
 
