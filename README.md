@@ -203,12 +203,14 @@ Current prices: [app.linkmcp.io/#pricing](https://app.linkmcp.io/#pricing)
 
 ## Account risk and limits
 
-Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk:
+How LinkMCP protects your LinkedIn account:
 
 - Server-side rate limits on every call, and a warm-up limit for connection requests on new or quiet accounts.
 - Your LinkedIn password is not stored. The LinkedIn session runs on dedicated session infrastructure, not in your browser.
 - No bulk scraping and no mass exports. No training on your data.
 - Read [Will my LinkedIn get banned?](https://app.linkmcp.io/guides/will-my-linkedin-get-banned) before you automate at volume.
+
+As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low.
 
 ---
 

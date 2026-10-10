@@ -48,6 +48,6 @@ You can, but you lose search, messaging, bulk lookups, engagement data, your own
 
 ## Account risk
 
-Any automated use of LinkedIn can put an account at risk, and no tool can promise that LinkedIn will not restrict an account. LinkMCP limits the risk: rate limits on every action (Cautious tier by default), a warm-up limit for connection requests on new or quiet accounts, a hard monthly usage cap on every plan, and managed sessions (no browser extension, nothing running on your machine). LinkMCP is not affiliated with LinkedIn. Details: [app.linkmcp.io/security](https://app.linkmcp.io/security)
+Every action has rate limits (Cautious tier by default), new or quiet accounts start with a warm-up limit for connection requests, every plan has a hard monthly usage cap, and sessions are managed (no browser extension, nothing running on your machine). As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low. LinkMCP is not affiliated with LinkedIn. Details: [app.linkmcp.io/security](https://app.linkmcp.io/security)
 
 **See also:** [Will my LinkedIn get banned? Automation risk, honestly](./will-my-linkedin-get-banned.md)
