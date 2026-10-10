@@ -15,7 +15,7 @@ n8n has two native nodes, and LinkMCP works with both:
 
 1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io) and create an access key under **API Keys**.
 2. Add the **MCP Client Tool** (under an AI Agent) or the standalone **MCP Client** node:
-   - **Endpoint / Server URL:** `https://app.linkmcp.io/api/mcp`
+   - **Endpoint / Server URL:** `https://app.linkmcp.io/api/mcp?ref=github-n8n`
    - **Authentication:** Bearer token -> paste your LinkMCP Personal Access Token
    - **Transport:** Streamable HTTP
 3. On the Tool node you can include all 34 tools or curate a subset (e.g. only search + connect + message for an outreach agent).
@@ -31,7 +31,7 @@ n8n has two native nodes, and LinkMCP works with both:
 
 ## Notes
 
-- **Make, Zapier, or any tool with an MCP client** connect the same way - point their MCP node at `https://app.linkmcp.io/api/mcp` with your token. LinkMCP is an MCP server; the LinkedIn tools are exposed over MCP, not as a per-endpoint REST API.
+- **Make, Zapier, or any tool with an MCP client** connect the same way - point their MCP node at `https://app.linkmcp.io/api/mcp?ref=github-n8n` with your token. LinkMCP is an MCP server; the LinkedIn tools are exposed over MCP, not as a per-endpoint REST API.
 - Rate limits are enforced server-side (Cautious tier by default), so an over-eager workflow is slowed down or stopped. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low.
 - Full tool reference: [app.linkmcp.io/llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 

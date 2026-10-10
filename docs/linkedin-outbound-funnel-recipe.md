@@ -22,7 +22,7 @@ Steps 1-4 run as one pass. Steps 5-7 run on a schedule (hourly is the sweet spot
 
 ## Build it
 
-**n8n:** one AI Agent with the **MCP Client Tool** sub-node pointed at `https://app.linkmcp.io/api/mcp` (Bearer = your LinkMCP token). Give the agent the list source (a Google Sheet / Airtable read) and let it call the tools; or wire the tools deterministically with the standalone **MCP Client** node if you don't want an LLM deciding steps. Split the "send requests" and "check accepts + follow up" halves into two workflows (the second on a Schedule Trigger).
+**n8n:** one AI Agent with the **MCP Client Tool** sub-node pointed at `https://app.linkmcp.io/api/mcp?ref=github-recipe` (Bearer = your LinkMCP token). Give the agent the list source (a Google Sheet / Airtable read) and let it call the tools; or wire the tools deterministically with the standalone **MCP Client** node if you don't want an LLM deciding steps. Split the "send requests" and "check accepts + follow up" halves into two workflows (the second on a Schedule Trigger).
 
 **Make.com:** an MCP Client connection to the same endpoint. Use **Execute an action with AI** for the personalization steps and **Call a tool** for the deterministic LinkedIn actions. Two scenarios: one over your list, one on a schedule for accepts.
 

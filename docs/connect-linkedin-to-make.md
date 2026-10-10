@@ -11,7 +11,7 @@
    - **Call a tool** - run one specific LinkMCP tool as a deterministic step (e.g. enrich a profile, send a connection request).
    - **Execute an action with AI** - let an LLM pick the right LinkMCP tool for the step.
 3. Create the connection -> **+ new MCP server**:
-   - **Server URL:** `https://app.linkmcp.io/api/mcp`
+   - **Server URL:** `https://app.linkmcp.io/api/mcp?ref=github-make`
    - **API key / token:** your LinkMCP Personal Access Token
 4. All 34 tools are now available in the scenario.
 
