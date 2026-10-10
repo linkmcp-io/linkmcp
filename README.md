@@ -174,7 +174,7 @@ Tools marked **trial** work in the free trial. All tools work on every paid plan
 | Category | Tools |
 |---|---|
 | **Profiles and companies** | `linkedin_get_profile` (trial), `linkedin_get_company` (trial, by URL or ID), `linkedin_bulk_get_profiles` (trial), `linkedin_bulk_get_companies` (trial) |
-| **Search** | `linkedin_search_people`, `linkedin_search_sales_navigator`, `linkedin_search_jobs` |
+| **Search** | `linkedin_search_people`, `linkedin_search_sales_navigator`, `linkedin_search_jobs`, `linkedin_get_job` (trial) |
 | **Posts and engagement** | `linkedin_get_person_posts` (trial), `linkedin_get_company_posts` (trial), `linkedin_get_post_comments` (trial), `linkedin_get_nested_comments`, `linkedin_get_post_reactions` |
 | **Messaging** | `linkedin_list_conversations`, `linkedin_get_conversation_messages`, `linkedin_send_message` (also InMail), `linkedin_mark_conversation_read` |
 | **Connections** | `linkedin_get_connections`, `linkedin_get_shared_connections`, `linkedin_list_connection_requests`, `linkedin_manage_connection_request`, `linkedin_send_connection_request` |
@@ -184,7 +184,7 @@ Tools marked **trial** work in the free trial. All tools work on every paid plan
 | **Contact finding** | `find_email` (trial), `validate_email` (trial), `find_mobile` (trial) |
 | **Utility** | `send_feedback` |
 
-26 tools only read. 8 tools write: send a message, send a connection request, accept, decline or withdraw a connection request, create a post, comment, react, mark a conversation as read, and send feedback. Every tool has a title and a read-only or write annotation, so your client can ask you before a write. Full parameter documentation: [llms-full.txt](https://app.linkmcp.io/llms-full.txt).
+27 tools only read. 8 tools write: send a message, send a connection request, accept, decline or withdraw a connection request, create a post, comment, react, mark a conversation as read, and send feedback. Every tool has a title and a read-only or write annotation, so your client can ask you before a write. Full parameter documentation: [llms-full.txt](https://app.linkmcp.io/llms-full.txt).
 
 **Company pages:** your AI can post, comment and react as a LinkedIn company page that you administer. It must name the page with `as_page`. Without `as_page`, it acts as you. Actions as a page count toward the same daily limits as your own actions.
 
