@@ -4,7 +4,7 @@
 
 LinkMCP is a hosted MCP server for LinkedIn. You connect your LinkedIn account once in the web app. Then your AI assistant can research people and companies, search LinkedIn (also Sales Navigator, with your own seat), read and answer your LinkedIn messages, post, comment and react (as yourself or as a company page that you administer), manage invitations, and find work emails and mobile numbers. There is nothing to install and nothing to run.
 
-[![Start your free 7-day trial](https://img.shields.io/badge/Start%20your%20free%207--day%20trial-005ccc?style=for-the-badge)](https://app.linkmcp.io/login?utm_source=github&utm_medium=readme&utm_content=cta-top)
+[![Start your free 7-day trial](https://img.shields.io/badge/Start%20your%20free%207--day%20trial-005ccc?style=for-the-badge)](https://app.linkmcp.io/?utm_source=github&utm_medium=readme&utm_content=cta-top)
 
 No card. Sign in with an email code or Google. Setup takes about a minute.
 
