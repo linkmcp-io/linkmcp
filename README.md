@@ -26,7 +26,7 @@ https://app.linkmcp.io/api/mcp?ref=github
 
 Transport: Streamable HTTP. Sign-in: OAuth in the browser. If your client cannot do OAuth, send an access key as `Authorization: Bearer <key>`. You create the key in the web app under **API Keys**.
 
-> **What works in the free trial:** profile and company lookups, the posts and comments of people and companies, and email and phone finding. To act as yourself on LinkedIn (people search, inbox, invitations, posting, company pages), subscribe and connect your LinkedIn account once in the web app.
+> **What works in the free trial:** profile and company lookups, the posts of people and companies, with their comments and reactions, and email and phone finding. To act as yourself on LinkedIn (people search, inbox, invitations, posting, company pages), subscribe and connect your LinkedIn account once in the web app.
 
 ### Claude (web and desktop)
 

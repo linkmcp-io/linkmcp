@@ -29,7 +29,6 @@ Import any of these into Make with one click, paste your LinkMCP token, and run:
 
 ## Workflow ideas
 
-- **Full-funnel outbound:** Sales Navigator list -> enrich each profile -> personalize a connection note -> send the request -> on accept, personalize and send the first message -> sync to CRM. Detect accepts by polling `linkedin_list_connection_requests` on a schedule (hourly); a native accept webhook is on the roadmap.
 - **Form -> connection request:** a new form submission -> look up the person on LinkedIn -> send a personalized connection request -> notify Slack.
 - **Spreadsheet enrichment:** each row -> LinkedIn profile lookup -> find + validate email -> write back.
 

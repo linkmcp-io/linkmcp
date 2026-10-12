@@ -24,7 +24,6 @@ n8n has two native nodes, and LinkMCP works with both:
 
 ## Workflow ideas
 
-- **Full-funnel outbound (search to sent, one workflow):** pull a Sales Navigator list -> enrich each profile -> draft a personalized connection note -> send the request -> when it is accepted, draft and send a personalized first message -> log to your CRM. No manual steps in between.
 - **Daily engagement digest:** every morning, pull who reacted to and commented on your posts, score against your ICP, post the shortlist to Slack.
 - **CRM enrichment:** new CRM contact -> look up LinkedIn profile -> find + validate work email -> write back.
 - **Follow-up agent:** list conversations with no reply in 7 days -> read each prospect's recent posts -> draft a personalized follow-up for approval.
