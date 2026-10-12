@@ -1,0 +1,8 @@
+{
+  "name": "linkmcp",
+  "owner": { "name": "LinkMCP", "email": "info@linkmcp.io", "url": "https://app.linkmcp.io" },
+  "description": "The LinkMCP plugin: the hosted LinkedIn MCP server and 3 skills for your own LinkedIn account.",
+  "plugins": [
+    { "name": "linkmcp", "source": "./" }
+  ]
+}

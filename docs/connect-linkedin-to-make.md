@@ -27,8 +27,6 @@ Import any of these into Make with one click, paste your LinkMCP token, and run:
 - [Send a LinkedIn message](https://www.make.com/en/templates/19506-send-a-linkedin-message-with-linkmcp)
 - [Find a work email](https://www.make.com/en/templates/19507-find-a-work-email-with-linkmcp)
 
-Chain them into a full outbound funnel with the [LinkedIn outbound funnel recipe](./linkedin-outbound-funnel-recipe.md).
-
 ## Workflow ideas
 
 - **Full-funnel outbound:** Sales Navigator list -> enrich each profile -> personalize a connection note -> send the request -> on accept, personalize and send the first message -> sync to CRM. Detect accepts by polling `linkedin_list_connection_requests` on a schedule (hourly); a native accept webhook is on the roadmap.
@@ -41,4 +39,4 @@ Chain them into a full outbound funnel with the [LinkedIn outbound funnel recipe
 - Rate limits are enforced server-side, so an over-eager scenario is slowed down or stopped. As with any tool that acts on LinkedIn for you, a restriction cannot be ruled out completely; these limits keep the risk low.
 - Full tool reference: [app.linkmcp.io/llms-full.txt](https://app.linkmcp.io/llms-full.txt)
 
-**See also:** [The LinkedIn outbound funnel, automated](./linkedin-outbound-funnel-recipe.md) - [Connect LinkedIn to n8n](./connect-linkedin-to-n8n.md) - [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)
+**See also:** [Connect LinkedIn to n8n](./connect-linkedin-to-n8n.md) - [Will my LinkedIn get banned?](./will-my-linkedin-get-banned.md)

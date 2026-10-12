@@ -8,6 +8,8 @@ LinkMCP is a hosted MCP server for LinkedIn. You connect your LinkedIn account o
 
 No card. Sign in with an email code or Google. Setup takes about a minute.
 
+This repository is also a plugin with 3 skills for Claude, Codex, Gemini CLI and other AI agents. See [Plugin and skills](#plugin-and-skills).
+
 ---
 
 ## Quick start
@@ -112,6 +114,75 @@ code --add-mcp '{"name":"linkmcp","type":"http","url":"https://app.linkmcp.io/ap
 
 ---
 
+## Plugin and skills
+
+This repository is also a plugin. The plugin adds the LinkMCP server to your AI client, and it adds 3 skills. A skill is a short set of instructions that tells your AI how to do one task with the LinkMCP tools.
+
+| Skill | What it does | What it sends to LinkedIn |
+|---|---|---|
+| `linkedin-account-brief` | Prepares a one-page brief before a call: the company and its recent posts, the people you will meet, shared connections, talking points and questions. | Nothing |
+| `linkedin-engagement-leads` | Turns the people who commented on or reacted to a LinkedIn post into a ranked lead list. | Nothing |
+| `linkedin-inbox-followup` | Finds LinkedIn conversations with no new message for 7 days or more, and drafts short follow-ups. | Only the messages that you approve, one message at a time |
+
+### Install the plugin
+
+**Claude (web, desktop and Cowork):** open **Customize > Plugins**, choose **Add > Add marketplace** and enter `linkmcp-io/linkmcp`. Add the **LinkMCP** plugin. Then open the **Connectors** tab of the plugin, connect LinkMCP and approve the sign-in window.
+
+If you added LinkMCP before as a custom connector, remove that connector after you connect the plugin. Then Claude sees one set of LinkMCP tools.
+
+**Claude Code:**
+
+```bash
+claude plugin marketplace add linkmcp-io/linkmcp
+claude plugin install linkmcp@linkmcp
+```
+
+Then run `/mcp`, select the LinkMCP server and choose **Authenticate**. If you added LinkMCP before with `claude mcp add`, remove it with `claude mcp remove linkmcp`.
+
+**Codex:**
+
+```bash
+codex plugin marketplace add linkmcp-io/linkmcp
+codex plugin add linkmcp@linkmcp
+```
+
+Instead of the second command, you can open `/plugins` in Codex and install **LinkMCP**. Sign in to LinkMCP when Codex asks.
+
+**Gemini CLI:** the extension install command in [Gemini CLI](#gemini-cli) installs the server and the skills.
+
+**Other agents (skills only):** this command installs the 3 skills in Claude Code, Codex, Cursor, GitHub Copilot, OpenCode and many other agents. Then add the LinkMCP server to your agent as [Quick start](#quick-start) shows.
+
+```bash
+npx skills add linkmcp-io/linkmcp
+```
+
+### Try the skills
+
+```
+Prepare me for my call with linkedin.com/company/stripe tomorrow. I will meet
+<profile URL>. The goal of the call is a first demo.
+```
+
+```
+Who engaged with this LinkedIn post? <post URL>. Make a lead list of marketing
+leaders at B2B software companies.
+```
+
+```
+Find my LinkedIn conversations with no reply for 7 days or more and draft
+follow-ups. Show me each draft before you send anything.
+```
+
+The first prompt works in the free trial, except the shared connections. In the free trial, the second prompt reads the comments and the reactions, but not the replies to comments. The inbox skill needs a paid plan, with your LinkedIn account connected.
+
+### What the plugin does with your data
+
+The plugin contains only text, configuration files and a logo. It runs no code on your computer. When your AI uses a LinkMCP tool, your AI client sends the tool input to `https://app.linkmcp.io/api/mcp`, for example a profile URL, a post URL, search words or the text of a message that you approved. LinkMCP gets the data or does the action, and sends back the result. Messages and other actions on LinkedIn use your connected LinkedIn account. Two skills only read LinkedIn data. The inbox skill sends a LinkedIn message only after you approve that message. Privacy policy: [app.linkmcp.io/legal/privacy](https://app.linkmcp.io/legal/privacy).
+
+If a skill says that the LinkMCP tools are missing, connect the LinkMCP server in your AI client and sign in.
+
+---
+
 ## Example prompts
 
 Copy a prompt, replace the parts in angle brackets, and paste it into your AI client.
@@ -156,8 +227,8 @@ draft a short intro request.
 ```
 
 ```
-Who reacted to my last post? Which of them are marketing directors that I am not
-connected to? Draft a connection note for the top 10.
+Who reacted to my last post? Make a lead list of the marketing directors that I am
+not connected to.
 ```
 
 ```
@@ -175,7 +246,7 @@ Tools marked **trial** work in the free trial. All tools work on every paid plan
 |---|---|
 | **Profiles and companies** | `linkedin_get_profile` (trial), `linkedin_get_company` (trial, by URL or ID), `linkedin_bulk_get_profiles` (trial), `linkedin_bulk_get_companies` (trial) |
 | **Search** | `linkedin_search_people`, `linkedin_search_sales_navigator`, `linkedin_search_jobs`, `linkedin_get_job` (trial) |
-| **Posts and engagement** | `linkedin_get_person_posts` (trial), `linkedin_get_company_posts` (trial), `linkedin_get_post_comments` (trial), `linkedin_get_nested_comments`, `linkedin_get_post_reactions` |
+| **Posts and engagement** | `linkedin_get_person_posts` (trial), `linkedin_get_company_posts` (trial), `linkedin_get_post_comments` (trial), `linkedin_get_nested_comments`, `linkedin_get_post_reactions` (trial) |
 | **Messaging** | `linkedin_list_conversations`, `linkedin_get_conversation_messages`, `linkedin_send_message` (also InMail), `linkedin_mark_conversation_read` |
 | **Connections** | `linkedin_get_connections`, `linkedin_get_shared_connections`, `linkedin_list_connection_requests`, `linkedin_manage_connection_request`, `linkedin_send_connection_request` |
 | **Content** | `linkedin_create_post`, `linkedin_comment_on_post`, `linkedin_react_to_post` |
@@ -216,7 +287,7 @@ As with any tool that acts on LinkedIn for you, a restriction cannot be ruled ou
 
 ## FAQ
 
-**Is LinkMCP open source?** No. This repository holds the documentation and client configuration. The server is a hosted service, and its code is not public. There is nothing to install or run locally.
+**Is LinkMCP open source?** No. This repository holds the documentation, the client configuration and the skills. The server is a hosted service, and its code is not public. You do not install or run a server on your computer.
 
 **Is LinkMCP an official LinkedIn product?** No. LinkMCP is an independent product of Third Person Systems LLC. It is not affiliated with or endorsed by LinkedIn, and it does not use an official LinkedIn partner API.
 
@@ -232,7 +303,6 @@ As with any tool that acts on LinkedIn for you, a restriction cannot be ruled ou
 - [Connect LinkedIn to Claude](docs/connect-linkedin-to-claude.md)
 - [Connect LinkedIn to n8n](docs/connect-linkedin-to-n8n.md)
 - [Connect LinkedIn to Make](docs/connect-linkedin-to-make.md)
-- [LinkedIn outbound funnel recipe for Make and n8n](docs/linkedin-outbound-funnel-recipe.md)
 - [LinkMCP and other LinkedIn MCP options](docs/linkmcp-vs-alternatives.md)
 - [LinkedIn MCP vs Expandi and PhantomBuster](docs/linkedin-mcp-vs-expandi-phantombuster.md)
 - [Will my LinkedIn get banned?](docs/will-my-linkedin-get-banned.md)
