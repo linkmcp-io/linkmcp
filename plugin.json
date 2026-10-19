@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "linkmcp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Your own LinkedIn account in your AI agent: the hosted LinkMCP server and 3 skills for call prep briefs, lead lists from post engagement and inbox follow-ups. The skills only read, except the inbox skill, which sends a message only after you approve it.",
   "author": { "name": "LinkMCP", "email": "info@linkmcp.io", "url": "https://app.linkmcp.io" },
   "homepage": "https://app.linkmcp.io",

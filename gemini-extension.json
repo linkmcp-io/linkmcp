@@ -1,6 +1,6 @@
 {
   "name": "linkmcp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Hosted LinkedIn MCP server: your own LinkedIn account in Gemini CLI. 35 tools for search, profiles, inbox, posts, company pages and email finding, and 3 skills for call prep, post engagement leads and inbox follow-ups.",
   "mcpServers": {
     "linkmcp": {
