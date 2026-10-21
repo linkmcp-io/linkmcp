@@ -6,19 +6,19 @@
 
 ## Setup
 
-Developer mode needs ChatGPT Plus, Pro, Business, Enterprise or Edu (not Free), on the web.
+Add LinkMCP in ChatGPT on the web, in **Plugins**. We saw **Add custom MCP server** on ChatGPT Plus (2026-10-21); OpenAI's help page also names Business and Enterprise/Edu.
 
 1. Create a LinkMCP account at [app.linkmcp.io](https://app.linkmcp.io/login?from=chatgpt&utm_source=github&utm_medium=guide&utm_content=chatgpt-setup) (free 7-day trial, no card).
-2. In ChatGPT, open **Settings > Security and login** and turn on **Developer mode**.
-3. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins), click **+**, name it `LinkMCP` and paste this address:
+2. In ChatGPT on the web, open [chatgpt.com/plugins](https://chatgpt.com/plugins), click **Add** and choose **Add custom MCP server**.
+3. Name it `LinkMCP`, choose **Server URL** and paste the LinkMCP server URL:
    ```
    https://app.linkmcp.io/api/mcp?ref=github-chatgpt
    ```
-4. Create the connection and approve the sign-in window.
-5. In a new chat, click **+ > Developer mode** and turn on LinkMCP.
+4. Leave Authentication on **OAuth**, tick **I understand and want to continue**, click **Create** and sign in to LinkMCP in the window that opens.
+5. In a chat, type **@** and choose LinkMCP.
 6. Test it: *"Look up the company linkedin.com/company/stripe on LinkedIn and give me a short brief: what they do, how big they are and what they posted recently."*
 
-> **Requirements:** ChatGPT connects only to *remote* MCP servers. LinkMCP is hosted, so it works directly. A local or self-hosted server needs a bridge to expose it remotely. A workspace admin can turn Developer mode off for a Business or Enterprise workspace.
+> **Requirements:** ChatGPT connects to an MCP server by its URL. LinkMCP is hosted, so it works directly. A local or self-hosted server must first be reachable from the internet. On a Business workspace, only admins and owners can add a custom MCP server; on Enterprise and Edu, admins decide who can.
 
 ## What works in the free trial
 
