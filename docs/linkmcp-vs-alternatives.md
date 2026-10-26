@@ -9,7 +9,7 @@ An honest comparison for anyone deciding how to give their AI assistant LinkedIn
 | | **LinkMCP** (this) | **stickerdaniel/linkedin-mcp-server** (OSS) | **Linked API** | **Expandi / Dripify / classic outreach tools** |
 |---|---|---|---|---|
 | Model | Hosted MCP server | Self-hosted, your own browser session | Hosted MCP + API, cloud browser | SaaS sequencers (not MCP) |
-| Price | 7-day trial without card; Starter $19, Pro $49, Max $199 per month | Free (Apache 2.0) | $69 (Core) or $99 (Plus) per account per month, 29% less billed yearly | Expandi $99 per seat per month ($79 yearly); Dripify $59 to $99 per user per month |
+| Price | 7-day trial without card; Starter $39, Pro $49, Max $199 per month | Free (Apache 2.0) | $69 (Core) or $99 (Plus) per account per month, 29% less billed yearly | Expandi $99 per seat per month ($79 yearly); Dripify $59 to $99 per user per month |
 | Setup | ~60s, no install | Local install (uvx, Docker and others), then sign in to LinkedIn in a browser | minutes | minutes |
 | Session management | Managed server-side (TLS), no browser extension | Your own logged-in browser - you maintain it | Managed cloud browser | Managed |
 | Tools | 35 (profiles, search incl. Sales Navigator, messaging, posts, company pages, engagement, enrichment incl. email/phone) | 19 (profiles, companies, jobs, people search, inbox and messages, connection requests, feed) | 62 listed (34 standard, 8 Sales Navigator, 3 workflow, 17 account admin) | Sequences, inbox |
