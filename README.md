@@ -292,8 +292,8 @@ Tools marked **trial** work in the free trial. All tools work on every paid plan
 ## Pricing
 
 - **Free trial:** 7 days, no card. The tools marked **trial** work at once. Connecting your own LinkedIn account needs a paid plan.
-- **Starter:** $19 per month. If you subscribe from a new trial, your first month is $9.50.
-- **Pro:** $49 per month (5x the Starter usage). **Max:** $199 per month (50x the Starter usage).
+- **Starter:** $39 per month. If you subscribe from a new trial, your first month is $19.50.
+- **Pro:** $49 per month (2.5x the Starter usage). **Max:** $199 per month (25x the Starter usage).
 - Every paid plan includes every tool. Each plan has a monthly usage allowance and a hard cap, so a looping agent cannot run up a bill. Top-up packs cost $10.
 
 Current prices: [app.linkmcp.io/#pricing](https://app.linkmcp.io/#pricing)
